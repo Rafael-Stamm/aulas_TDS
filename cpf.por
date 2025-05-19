@@ -21,7 +21,7 @@ programa
 					// contagem para verificar o "cadeia cpf"
 					para(inteiro i = 0; i < tam; i++){
 						// verifica se está lidando com os números verificadores do cpf "y"
-						se(i == 9) { //retireioaparte (ou i == 10) para ler apenas o primeiro digito 
+						se(i == 9) { //retirei a parte (ou i == 10) para ler apenas o primeiro digito 
 							cpf_y += t.obter_caracter(cpf, i)
 						// verifica se está lidando com o resto do cpf "x"
 						} senao se(i < 9 e i >= 0) {
